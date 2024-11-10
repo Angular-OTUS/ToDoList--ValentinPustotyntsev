@@ -1,0 +1,17 @@
+
+
+
+<div class="to-do-list__container">
+    <h1>Todo List</h1>
+
+    <ul class="to-do-list__tasks" *ngFor="let task of tasks">
+        <li> {{ task }} </li>
+        <button> delete </button>
+    </ul>
+
+    <div class="to-do-list__add">
+        <input type="text" placeholder="Add your new todo">
+        <button> Add task </button>
+    </div>
+
+</div>

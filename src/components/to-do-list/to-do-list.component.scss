@@ -1,0 +1,45 @@
+:host {
+    background-color: var(--background-color-default);
+    border-radius: 15px;
+    display: block;
+    max-width: fit-content;
+}
+
+.to-do-list{
+    &__container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    &__tasks{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 0;
+
+        li {
+            list-style: none;
+        }
+
+        button {
+            background-color: red;
+        }
+    }
+
+    &__add{
+        display: flex;
+        gap: 10px;
+
+        button {
+            background-color: lawngreen;
+        }
+    }
+}
+
+
+
+// ul{
+//     display: flex;
+// }
